@@ -1,5 +1,6 @@
 # 요청
-PUT movie_search_mapping/_mapping/_doc
+# 오류 PUT movie_search_mapping/_mapping/_doc
+PUT movie_search/_mapping/_doc
 {
   "properties": {
     "nationAltEn": {
