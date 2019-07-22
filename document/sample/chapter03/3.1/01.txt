@@ -6,7 +6,7 @@ PUT movie_search
     "number_of_replicas": 1
   },
   "mappings": {
-    "_doc": {
+   # "_doc": {
       "properties": {
         "movieCd": {
           "type": "keyword"
@@ -62,7 +62,7 @@ PUT movie_search
         }
       }
     }
-  }
+ # }
 }
 
 # 결과
