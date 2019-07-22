@@ -2,7 +2,7 @@
 PUT moive_search_mapping
 {
   "mappings": {
-    "_doc": {
+  #  "_doc": {
       "properties": {
         "awards": {
           "type": "text",
@@ -12,7 +12,7 @@ PUT moive_search_mapping
             }
           }
         }
-      }
+   #   }
     }
   }
 }
